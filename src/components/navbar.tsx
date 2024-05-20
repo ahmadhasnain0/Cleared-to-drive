@@ -25,12 +25,12 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar navbar-expand-lg bg-green fixed-top ${scrolled ? 'navbar-scrolled' : ''}`}>
-      <div className="container px-0">
+      <div className="container-fluid px-0">
         <a className="navbar-brand" href="#">
           <Image src={logo} alt='logo' className='object-fit-contain text-white' quality={100} />
         </a>
         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarTogglerDemo02">
-          <div className="d-flex align-self-end">
+          <div className="d-flex align-self-end px-5">
             <button className="btn bg-language b-header__language_en" type="submit">
               <p className='b-header__language-text mb-0'>EN</p>
             </button>
