@@ -2,10 +2,8 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import logo from "../../public/images/logo.svg";
-
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
@@ -15,14 +13,11 @@ export default function Navbar() {
         setScrolled(false);
       }
     };
-
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   return (
     <nav className={`navbar navbar-expand-lg bg-green fixed-top ${scrolled ? 'navbar-scrolled' : ''}`}>
       <div className="container-fluid px-0">
