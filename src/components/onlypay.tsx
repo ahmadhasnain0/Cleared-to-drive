@@ -13,7 +13,6 @@ export default function onlyPay() {
                         Only pay if you pass!
                     </h1>
                     <h2 className="fw-normal">$49 instant results submission to DMV
-
                     </h2>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4">

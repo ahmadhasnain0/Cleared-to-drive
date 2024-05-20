@@ -100,6 +100,9 @@ a {
 .bg-yellow{
   background-color:#E3D000;
 }
+
+.bg-light
+{background-color:#F5F5F5;}
 .f-60{
   font-size: 60px;
 }
