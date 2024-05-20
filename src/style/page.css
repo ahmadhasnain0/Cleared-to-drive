@@ -1,0 +1,91 @@
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: #209548; /* Adjust this color to your preference */
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; /* Ensure it appears above other content */
+}
+
+
+
+.b-hero {
+    align-items: center;
+    background: linear-gradient(180deg, #24a550, #19833d 50%, #0d612a);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    min-height: 640px;
+    overflow: hidden;
+    padding: 120px 60px;
+    position: relative;
+    fill: #fff;
+    text-align: center;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+  }
+  
+  .b-hero::before {
+    background: url(../../public/images/logo_symbol.svg) 50% / cover no-repeat;
+    content: "";
+    display: block;
+    height: 500px;
+    left: 50%;
+    opacity: .07;
+    position: absolute !important;
+    top: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    width: 866px;
+  }
+  .bg-language{
+    background: hsla(0, 0%, 100%, .2);
+    border-radius: 7px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1), inset 1px 1px hsla(0, 0%, 100%, .35);
+    cursor: pointer;
+    padding: 10px 26px 10px 54px;
+    position: relative;
+    transition: all .2s;
+    color: white;
+  }
+  .bg-language::before{
+  border-color: #fef9c2 transparent transparent;
+  border-style: solid;
+  border-width: 3px 3px 0;
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  }
+  .b-header__language-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    line-height: 21px;
+}
+.b-header__language_en::after{
+  background: url(../../public/images/language_en.svg) 50% / cover no-repeat;
+  content: "";
+  height: 26px;
+  left: 13px;
+  position: absolute;
+  top: 7px;
+  width: 26px;
+}
+.btn-header{
+  border-radius: 10px;
+  border-width: 0;
+  font-size: 18px;
+  font-weight: 700;
+  height: auto;
+  line-height: 27px;
+  min-height: auto;
+  padding: 20px 30px 18px;
+}

@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../style/globals.css";
+
 import 'bootstrap/dist/css/bootstrap.css';
 const inter = Inter({ subsets: ["latin"] });
 import Nav from "../components/navbar";
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-      <div className="container-fluid">
+      <div className="container-fluid px-0">
         <Nav/>
         {children}
         </div></body>
