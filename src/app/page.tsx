@@ -6,6 +6,7 @@ import Header from '@/components/header';
 import OnlyPay from '@/components/onlypay';
 import Featured from '@/components/featured';
 import Militry from '@/components/militry';
+import Review from '@/components/review';
 export default function Home() {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
@@ -16,6 +17,7 @@ export default function Home() {
     <OnlyPay/>
     <Featured />
     <Militry />
+    <Review/>
     </main>
   );
 }
