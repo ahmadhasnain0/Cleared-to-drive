@@ -17,7 +17,7 @@ export default function header() {
                 </div>
                 <div className="col-12 text-center d-flex justify-content-center z-3">
                     <button className="btn-header bg-white text-black m-2 ">Schedule For Later</button>
-                    <button className="btn-header bg-yellow text-black m-2">Take Test Now</button>
+                    <button className="btn-header btn-yellow text-black m-2">Take Test Now</button>
                 </div>
                 <div className="col-12 text-center d-flex justify-content-center z-3">
                     <Image src={svg1} alt='logo' className='object-fit-contain text-white m-2 ' quality={100} />

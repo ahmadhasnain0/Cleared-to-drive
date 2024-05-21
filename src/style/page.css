@@ -114,3 +114,21 @@ height: 15px;
 .box_american_express{
   background: #006fcf !important;
 }
+.bg-blue{
+  background: linear-gradient(180deg, #040b2b, #000);
+}
+.fb-fill{
+  fill: white;
+}
+.fb-fill:hover{
+  fill: #fce700;
+}
+.cursor{
+cursor: pointer;
+}
+.btn-yellow{
+background-color: #E3D000;
+}
+.btn-yellow:hover{
+  background-color: #c7bf68;
+  }

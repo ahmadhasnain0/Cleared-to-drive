@@ -36,7 +36,7 @@ export default function featured() {
                     </h3>
                 </div>
                 <div className="col-12 text-center d-block d-md-flex justify-content-center mt-3">
-                    <button className="btn-header bg-yellow text-black m-2">Make Virtual Appointment</button>
+                    <button className="btn-header btn-yellow text-black m-2">Make Virtual Appointment</button>
                 </div>
             </div>
         </div>

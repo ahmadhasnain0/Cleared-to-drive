@@ -34,7 +34,6 @@ export default function Payment() {
                             <Image src={paypal} alt='logo' className='object-fit-contain text-white m-2 img' quality={100} />
                         </div>
                     </div>
-
                 </div>
                 <div className='col-12 text-center mt-5 pt-5'>
                     <h1>
@@ -48,7 +47,7 @@ export default function Payment() {
                     <Image src={people} alt='logo' className='object-fit-contain text-white m-2 img ' quality={100} />
                 </div>
                 <div className="col-12 text-center d-flex justify-content-center z-3 py-3">
-                    <button className="btn-header bg-yellow text-black m-2">Make Virtual Appointment</button>
+                    <button className="btn-header btn-yellow text-black m-2">Make Virtual Appointment</button>
                 </div>
             </div>
         </div>
