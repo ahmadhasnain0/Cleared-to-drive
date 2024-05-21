@@ -94,3 +94,23 @@
   list-style: none;
   padding: 0;
 }
+.box_american_express,
+.payment-box{
+	align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 30px 50px rgba(13, 32, 51, .12);
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    position: relative;
+    max-width: 105px;
+	padding: 0 10px;
+}
+
+.payment-box .img{
+height: 15px;
+}
+.box_american_express{
+  background: #006fcf !important;
+}

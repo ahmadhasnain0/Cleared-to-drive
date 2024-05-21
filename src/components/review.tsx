@@ -12,7 +12,7 @@ export default function Review(){
                 Review
                     </h1>
                 </div>
-                <div className="col-12 text-center d-flex justify-content-center z-3 ">
+                <div className="col-12 text-center d-block d-sm-flex justify-content-center z-3 ">
                     <Image src={svg1} alt='logo' className='object-fit-contain text-white m-2 ' quality={100} />
                     <Image src={svg2} alt='logo' className='object-fit-contain text-white m-2' quality={100} />
                     <Image src={img3} alt='logo' className='object-fit-contain text-white m-2'  quality={100} />
