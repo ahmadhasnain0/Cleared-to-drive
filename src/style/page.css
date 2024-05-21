@@ -89,3 +89,8 @@
   min-height: auto;
   padding: 20px 30px 18px;
 }
+
+.listStyleNone {
+  list-style: none;
+  padding: 0;
+}
