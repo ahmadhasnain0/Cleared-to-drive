@@ -19,26 +19,25 @@ export default function featured() {
                     </h2>
                 </div>
                 <div className="col-12 text-center d-block d-md-flex justify-content-center">
-                <Image src={newyork} alt='logo' className='object-fit-contain text-white m-3' style={{opacity:"0.7"}} quality={100} />
-                <Image src={boomer} alt='logo' className='object-fit-contain text-white m-3' style={{opacity:"0.8"}} quality={100} />
+                    <Image src={newyork} alt='logo' className='object-fit-contain text-white m-3' style={{ opacity: "0.7" }} quality={100} />
+                    <Image src={boomer} alt='logo' className='object-fit-contain text-white m-3' style={{ opacity: "0.8" }} quality={100} />
                 </div>
                 <div className="col-12 text-center d-block d-md-flex justify-content-center">
-                <Image src={ab9} alt='logo' className='object-fit-contain text-white m-3' style={{opacity:"0.8"}} quality={100} />
-                <Image src={new12} alt='logo' className='object-fit-contain text-white m-3' style={{opacity:"0.8"}} quality={100} />
-                <Image src={obc} alt='logo' className='object-fit-contain text-white m-3' style={{opacity:"0.8"}} quality={100} />
-                <Image src={as} alt='logo' className='object-fit-contain text-white m-3' style={{opacity:"0.8"}} quality={100} />
+                    <Image src={ab9} alt='logo' className='object-fit-contain text-white m-3' style={{ opacity: "0.8" }} quality={100} />
+                    <Image src={new12} alt='logo' className='object-fit-contain text-white m-3' style={{ opacity: "0.8" }} quality={100} />
+                    <Image src={obc} alt='logo' className='object-fit-contain text-white m-3' style={{ opacity: "0.8" }} quality={100} />
+                    <Image src={as} alt='logo' className='object-fit-contain text-white m-3' style={{ opacity: "0.8" }} quality={100} />
                 </div>
                 <div className="col-12 text-center mt-5">
-                <h1>
-                Already renewed your driver’s license?
+                    <h1>
+                        Already renewed your driver’s license?
                     </h1>
-                    <h3 className="fw-normal">If you <span> <a href="" className="text-decoration-none" style={{color:'aqua'}}>self-certified</a></span> , take your vision test with us!
+                    <h3 className="fw-normal">If you <span> <a href="" className="text-decoration-none" style={{ color: 'aqua' }}>self-certified</a></span> , take your vision test with us!
                     </h3>
-</div>
-<div className="col-12 text-center d-block d-md-flex justify-content-center mt-3">
-<button className="btn-header bg-yellow text-black m-2">Make Virtual Appointment</button>
-
-</div>
+                </div>
+                <div className="col-12 text-center d-block d-md-flex justify-content-center mt-3">
+                    <button className="btn-header bg-yellow text-black m-2">Make Virtual Appointment</button>
+                </div>
             </div>
         </div>
     );
