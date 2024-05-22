@@ -40,7 +40,7 @@ export default function Review() {
                     <Image src={img3} alt='logo' className='object-fit-contain text-white m-2' quality={100} />
                
                 </div>
-                <div className="col-12">
+                <div className="col-12 mt-5">
                     <div className="swiffy-slider slider-item-reveal slider-item-nosnap-touch slider-nav-round slider-nav-visible slider-nav-page slider-indicators-outside slider-indicators-sm slider-item-helper">
                         <ul className="slider-container border-0">
                         <li>

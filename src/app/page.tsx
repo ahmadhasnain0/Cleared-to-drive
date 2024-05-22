@@ -11,8 +11,6 @@ import Payment from '@/components/payment';
 export default function Home() {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
-    import("../style/swiffy-slider");
-
   }, []);
   return (
     <main  >
