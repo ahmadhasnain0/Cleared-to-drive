@@ -1,21 +1,24 @@
-"Use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
 import military from "../../public/images/military_icon.svg";
+
 export default function Military() {
-    const [expandedIndex, setExpandedIndex] = useState(null);
-    const toggleFAQ = (index) => {
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null); // Explicitly specify the type as number or null
+
+    const toggleFAQ = (index: number) => { // Explicitly specify the type of 'index'
         if (expandedIndex === index) {
             setExpandedIndex(null);
         } else {
             setExpandedIndex(index);
         }
     };
+
     const faqs = [
         { question: "Is this legitimate?", answer: "Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence matter more." },
         { question: "How does it work?", answer: "Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence matter more." },
         { question: "Who does the test?", answer: "Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence matter more." },
     ];
+
     return (
         <div className='container my-5'>
             <div className="row">
@@ -49,8 +52,7 @@ export default function Military() {
                     <ul className="list-group d-flex mt-5 mb-3 listStyleNone" style={{ width: '830px' }} >
                         {faqs.map((faq, index) => (
                             <li className="border-top py-2" key={index}>
-                                <div className="text-nowrap d-flex justify-content-between align-items-center" onClick={() => toggleFAQ(index)}
-                                >
+                                <div className="text-nowrap d-flex justify-content-between align-items-center" onClick={() => toggleFAQ(index)}>
                                     <h3 className="text-gray">{faq.question}</h3>
                                     <button
                                         className="fs-1 bg-transparent d-flex border-0"
