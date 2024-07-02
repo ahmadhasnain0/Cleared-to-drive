@@ -10,7 +10,7 @@ import Review from '@/components/review';
 import Payment from '@/components/payment';
 export default function Home() {
   useEffect(() => {
-    import("bootstrap/dist/js/bootstrap");
+    import("bootstrap/dist/js/bootstrap.js");
   }, []);
   return (
     <main  >
