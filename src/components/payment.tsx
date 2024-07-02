@@ -6,7 +6,6 @@ import discover from "../../public/images/payment/discover.webp"
 import mastercard from "../../public/images/payment/mastercard.svg"
 import paypal from "../../public/images/payment/paypal.svg"
 import people from "../../public/images/people.webp"
-
 export default function Payment() {
     return (
         <div className="container pt-5 mt-5">

@@ -1,6 +1,4 @@
 
-
-
 export default function footer() {
     return (
         <div className="container-fluid bg-blue py-4">

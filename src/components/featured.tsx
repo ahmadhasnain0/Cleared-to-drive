@@ -1,6 +1,4 @@
 
-
-
 import Image from "next/image";
 import newyork from "../../public/images/featured/the_new_york_times.svg"
 import boomer from "../../public/images/featured/boomer_gio_play.svg"
@@ -8,8 +6,6 @@ import as from "../../public/images/featured/as.svg"
 import ab9 from "../../public/images/featured/9abc.svg"
 import new12 from "../../public/images/featured/news12_longisland.svg"
 import obc from "../../public/images/featured/cbs_news.svg"
-
-
 export default function featured() {
     return (
         <div className="container-fluid px-0">

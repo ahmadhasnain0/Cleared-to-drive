@@ -3,7 +3,6 @@ import Image from "next/image";
 import device from "../../public/images/onlypay/icon_devices.svg"
 import online from "../../public/images/onlypay/icon_online.svg"
 import snap from "../../public/images/onlypay/icon_snap.svg"
-
 export default function onlyPay() {
     return (
         <div className="container py-5">

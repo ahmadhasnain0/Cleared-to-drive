@@ -3,7 +3,6 @@ import Image from 'next/image';
 import svg1 from "../../public/images/svg1.svg"
 import svg2 from "../../public/images/svg2.svg"
 import svg3 from "../../public/images/img3.webp"
-
 export default function header() {
     return (
         <div className="container-fluid b-hero d-flex align-items-center">
